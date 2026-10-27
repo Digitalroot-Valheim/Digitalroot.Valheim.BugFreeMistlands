@@ -1,14 +1,42 @@
-# TBD
+# Bug Free Mistlands
 
 ## Summary
 
-TBD
+Mistlands without the bugs
 
 ## License
 **GNU Affero General Public License v3.0**
 
 ## Details
-TBD
+
+#### Removes
+Disables world spawners and prevents spawning of  
+- Gjall
+- Seeker
+- SeekerBrood
+- SeekerBrute
+- SeekerQueen
+- Tick
+
+#### Adds
+Adds prefabs for 
+- EvilDverger (**bfml_EvilDverger**)
+- EvilDvergerMage (**bfml_EvilDvergerMage**)
+- EvilBonemass (**bfml_EvilBonemass**)
+
+Adds Mistland world spawners for 
+- EvilDverger
+- EvilDvergerMage
+
+#### Replaces
+
+Replaces spawning of SeekerQueen with EvilBonemass.  
+Replaces dungeon spawning of Seeker with EvilDverger.  
+Replaces dungeon spawning of SeekerBrute with EvilDvergerMage.
+
+#### Moves
+- Moves ItemDrops from Gjall, Seeker, SeekerBrood, SeekerBrute, Tick to EvilDverger and EvilDvergerMage.
+- Moves ItemDrops from SeekerQueen to EvilBonemass.
 
 ### Dependencies
 - <a href="https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/"  target="_blank">BepInExPack Valheim</a>
@@ -20,35 +48,7 @@ TBD
 
 ### Configuration 
 
-| Config                          | Category          | Data Type | Desc                                      |
-| ---                             | ---               | ---       | ---                                       |
-| Campfire                        | Fireplaces        | bool      | Enable Campfire                           |
-| Bonfire                         | Fireplaces        | bool      | Enable Bonfire                            |
-| Sconce                          | Fireplaces        | bool      | Enable Sconce                             |
-| StandingWoodTorch               | Fireplaces        | bool      | Enable Standing Wood Torch                |
-| StandingIronTorch               | Fireplaces        | bool      | Enable Standing Iron Torch                |
-| StandingGreenBurningIronTorch   | Fireplaces        | bool      | Enable Standing Green Burning Iron Torch  |
-| StandingBlueBurningIronTorch    | Fireplaces        | bool      | Enable Standing Blue Burning Iron Torch   |
-| StandingBrazier                 | Fireplaces        | bool      | Enable Standing Brazier                   |
-| HangingBrazier                  | Fireplaces        | bool      | Enable Hanging Brazier                    |
-| Hearth                          | Fireplaces        | bool      | Enable Hearth                             |
-| HotTub                          | Fireplaces        | bool      | Enable Hot Tub                            |
-| JackOTurnip                     | Fireplaces        | bool      | Enable Jack O' Turnip                     |
-| StoneOven                       | Cooking Stations  | bool      | Enable Stone Oven                         |
-| Smelter                         | Smelters          | bool      | Enable Smelter                            |
-| BlastFurnace                    | Smelters          | bool      | Enable Blast Furnace                      |
-| EitrRefinery                    | Smelters          | bool      | Enable Eitr Refinery                      |
-| CustomPrefabs                   | Custom            | string    | A comma-separated list of prefab names    |
-
-###### Add to server to enforce configs. 
-
-### Crossplay <span class="checked">?</span>
-| Point of View               | Server w/ Mod                   | Server w/o Mod                  | Client (PC) w/ mod              | Client (PC/Console) w/o mod     |
-| ---                         | ---                             | ---                             | ---                             | ---                             |
-| Client (PC) w/ mod          | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> |
-| Client (PC/Console) w/o mod | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> | <span class="checked">?</span> |
-| Server w/ Mod               |                                 |                                 | <span class="checked">?</span> | <span class="checked">?</span> |
-| Server w/o Mod              |                                 |                                 | <span class="checked">?</span> | <span class="checked">?</span> |
+- No configs needed
 
 ### Issues/Questions/Bugs
 - Use the repo issues tab above.
