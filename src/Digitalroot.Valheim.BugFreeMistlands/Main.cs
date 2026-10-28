@@ -494,7 +494,8 @@ namespace Digitalroot.Valheim.BugFreeMistlands
     [AiInfo(AiInfoMetaData.Ai_Generated)]
     private static Texture2D RecolorTextureHueBand(Texture source, float targetHue, float minHue, float maxHue, float minSaturation)
     {
-      if (Modding.Framework.Utils.ValheimUtils.IsDedicated) return null;
+      // if (Modding.Framework.Utils.ValheimUtils.IsDedicated) return null;
+      if (SystemInfo.graphicsDeviceType == UnityEngine.Rendering.GraphicsDeviceType.Null) return null; // dedicated server
 
       var rt = RenderTexture.GetTemporary(source.width, source.height, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
       var previous = RenderTexture.active;
