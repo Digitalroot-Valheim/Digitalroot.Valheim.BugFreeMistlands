@@ -1,12 +1,12 @@
 {
   "$schema": "https://raw.githubusercontent.com/Digitalroot-Valheim/Digitalroot.Valheim.Common.Interfaces/main/src/json/tsio-manifest.json",
-  "name": "Eternal_Fire",
+  "name": "Bug_Free_Mistlands",
   "author": "Digitalroot",
-  "description": "Keeps fires lit and burning without needing to fuel them.",
+  "description": "Mistlands without the bugs.",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2350",
     "ValheimModding-Jotunn-2.30.0"
   ],
-  "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire"
+  "website_url": "https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands"
 }

@@ -1,37 +1,65 @@
-﻿[url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/releases/latest][img]https://badgen.net/github/release/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/stable[/img][/url] [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/issues][img]https://badgen.net/github/open-issues/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire[/img][/url]
+﻿[url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/releases/latest][img]https://badgen.net/github/release/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/stable[/img][/url] [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/issues][img]https://badgen.net/github/open-issues/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands[/img][/url]
 
-[size=3]Keeps fires lit and burning without needing to fuel them.[/size]
-[b][size=4]
-License[/size]
-[/b][size=3][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/blob/main/LICENSE]GNU Affero General Public License v3.0[/url][/size]
-[size=3]Closed-source license is available for commercial use.[/size]
+Mistlands without the bugs.
+
+[size=4][b]Removes[/b][/size]
+Disables world spawners and prevents spawning of:
+[list]
+[*]Gjall[/*]
+[*]Seeker[/*]
+[*]SeekerBrood[/*]
+[*]SeekerBrute[/*]
+[*]SeekerQueen[/*]
+[*]Tick[/*]
+[/list]
+[b][size=4]Adds[/size][/b]
+Adds prefabs for:
+[list]
+[*]EvilDverger (**bfml_EvilDverger**)[/*]
+[*]EvilDvergerMage (**bfml_EvilDvergerMage**)[/*]
+[*]EvilBonemass (**bfml_EvilBonemass**)[/*]
+[/list]
+Adds Mistland world spawners for:
+[list]
+[*]EvilDverger[/*]
+[*]EvilDvergerMage[/*]
+[/list]
+[b][size=4]Replaces[/size][/b]
+[list]
+[*]Replaces spawning of SeekerQueen with EvilBonemass. [/*]
+[*]Replaces dungeon spawning of Seeker with EvilDverger. [/*]
+[*]Replaces dungeon spawning of SeekerBrute with EvilDvergerMage.[/*]
+[/list]
+[size=4][b]Moves[/b][/size]
+[list]
+[*]Moves ItemDrops from Gjall, Seeker, SeekerBrood, SeekerBrute, Tick to EvilDverger and EvilDvergerMage.[/*]
+[*]Moves ItemDrops from SeekerQueen to EvilBonemass.[/*]
+[/list]
+[b][size=4]License[/size]
+[/b][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/blob/main/LICENSE]GNU Affero General Public License v3.0[/url]
+Closed-source license is available for commercial use.
 
 [b][size=4]Source[/size][/b]
-[size=3][url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire]GitHub[/url][/size]
+[url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands]GitHub[/url]
 
 [b][size=4]Installation (manual)[/size][/b]
 [list=1]
-[*][size=3]Download the latest release archive (zip) file.[/size][/*]
-[*][size=3]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins[/size][/*]
+[*]Download the latest release archive (zip) file.[/*]
+[*]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins[/*]
 [/list]
 
-[b][size=4]Configuration[/size][/b][size=3]
-Each fire source mod targets can be toggled. Config now syncs w/ the server. [/size]
-[size=3]
-Go [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire?tab=readme-ov-file#configuration]here[/url] for config details.[/size]
-
-[size=4][b]Crossplay[/b]:[/size][size=3] Compatible with clients without the mod. [/size]
-
+[b][size=4]Configuration[/size][/b]
+[list]
+[*]No configs needed[/*]
+[/list]
 [b][size=4]Issues/Bugs[/size][/b]
-[size=3]Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/issues]issue board[/url]﻿﻿.[/size]
+Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/issues]issue board[/url]﻿﻿.
 
 [b][size=4]Questions[/size][/b]
-[size=3]Ask a question on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.EternalFire/discussions]discussions board[/url]﻿﻿.[/size]
-
-
+Ask a question on the [url=https://github.com/Digitalroot-Valheim/Digitalroot.Valheim.BugFreeMistlands/discussions]discussions board[/url]﻿﻿.
 
 [b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
 
-[center][color=#fff2cc][size=3][b]Digitalroot can be found in the Valhalla Legends' Discord[/b][/size][/color]
+[center][color=#fff2cc][b]Digitalroot can be found in the Valhalla Legends' Discord[/b][/color]
 
 [url=https://discord.gg/SsMW3rm67u][img]https://digitalroot.net/img/vl/vl_logo_125x154.png[/img][/url]﻿[/center]

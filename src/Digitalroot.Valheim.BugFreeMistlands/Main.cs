@@ -72,7 +72,7 @@ namespace Digitalroot.Valheim.BugFreeMistlands
       try
       {
         if (Instance.EnableTrace) Log.Trace(Instance, $"{MethodBase.GetCurrentMethod()?.DeclaringType?.Name}.{MethodBase.GetCurrentMethod()?.Name}");
-        NexusId = Config.Bind(PluginConfigSection.General, "NexusID", 0000, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
+        NexusId = Config.Bind(PluginConfigSection.General, "NexusID", 4718, new ConfigDescription("Nexus mod ID for updates", null, new ConfigurationManagerAttributes { Browsable = false, ReadOnly = true }));
         SynchronizationManager.OnConfigurationSynchronized += SynchronizationManager_OnConfigurationSynchronized;
         CreatureManager.OnVanillaCreaturesAvailable += CreatureManager_OnVanillaCreaturesAvailable;
         _harmony = Harmony.CreateAndPatchAll(typeof(Main).Assembly, Guid);

@@ -2,7 +2,7 @@
 
 ## Summary
 
-Mistlands without the bugs
+Mistlands without the bugs.
 
 ## License
 **GNU Affero General Public License v3.0**
@@ -10,7 +10,7 @@ Mistlands without the bugs
 ## Details
 
 #### Removes
-Disables world spawners and prevents spawning of  
+Disables world spawners and prevents spawning of: 
 - Gjall
 - Seeker
 - SeekerBrood
@@ -19,20 +19,20 @@ Disables world spawners and prevents spawning of
 - Tick
 
 #### Adds
-Adds prefabs for 
+Adds prefabs for:
 - EvilDverger (**bfml_EvilDverger**)
 - EvilDvergerMage (**bfml_EvilDvergerMage**)
 - EvilBonemass (**bfml_EvilBonemass**)
 
-Adds Mistland world spawners for 
+Adds Mistland world spawners for:
 - EvilDverger
 - EvilDvergerMage
 
 #### Replaces
 
-Replaces spawning of SeekerQueen with EvilBonemass.  
-Replaces dungeon spawning of Seeker with EvilDverger.  
-Replaces dungeon spawning of SeekerBrute with EvilDvergerMage.
+- Replaces spawning of SeekerQueen with EvilBonemass.  
+- Replaces dungeon spawning of Seeker with EvilDverger.  
+- Replaces dungeon spawning of SeekerBrute with EvilDvergerMage.
 
 #### Moves
 - Moves ItemDrops from Gjall, Seeker, SeekerBrood, SeekerBrute, Tick to EvilDverger and EvilDvergerMage.

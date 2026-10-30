@@ -46,10 +46,10 @@ jobs:
       #nuget-s3-upload: true
       #nuget-org-upload: true
       nexus-enable-upload: true
-      nexus-mod-id: 000
-      nexus-mod-file-id: 0000
+      nexus-mod-id: 4718
+      nexus-mod-file-id: 8273436
       ts-enable-upload: true
       ts-name: Bug_Free_Mistlands
       ts-description: "Mistlands without the bugs"
-      ts-categories: "server-side client-side" #https://thunderstore.io/api/experimental/community/valheim/category/
+      ts-categories: "server-side client-side ai-generated" #https://thunderstore.io/api/experimental/community/valheim/category/
       ts-dependencies: ValheimModding-Jotunn-2.30.0

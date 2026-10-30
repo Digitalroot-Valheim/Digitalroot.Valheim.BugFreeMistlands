@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{28344659-BF34-4411-9C48-A3D5C9AFA98E}"
 	ProjectSection(SolutionItems) = preProject
+		..\docs\CHANGELOG.md = ..\docs\CHANGELOG.md
 		..\docs\README.md = ..\docs\README.md
 	EndProjectSection
 EndProject
